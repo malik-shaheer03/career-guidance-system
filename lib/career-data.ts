@@ -1,0 +1,171 @@
+export const careers = [
+  {
+    id: "software-engineer",
+    title: "Software Engineer",
+    description:
+      "Design, develop, and maintain software applications and systems. Work with programming languages, frameworks, and tools to create solutions that meet user needs.",
+    category: "technology",
+    skills: ["Programming", "Problem Solving", "Software Design", "Testing", "Version Control"],
+    education: "Bachelor's degree in Computer Science, Software Engineering, or related field",
+    salary: "$80,000 - $140,000",
+    growth: "High",
+    responsibilities: [
+      "Write clean, maintainable code",
+      "Design software architecture",
+      "Debug and troubleshoot issues",
+      "Collaborate with cross-functional teams",
+    ],
+  },
+  {
+    id: "data-scientist",
+    title: "Data Scientist",
+    description:
+      "Analyze complex data sets to extract insights and help organizations make data-driven decisions. Use statistical methods, machine learning, and programming skills.",
+    category: "technology",
+    skills: ["Python/R", "Machine Learning", "Statistics", "Data Visualization", "SQL"],
+    education: "Bachelor's or Master's degree in Data Science, Statistics, Computer Science, or related field",
+    salary: "$95,000 - $150,000",
+    growth: "Very High",
+    responsibilities: [
+      "Collect and clean large datasets",
+      "Build predictive models",
+      "Create data visualizations",
+      "Present findings to stakeholders",
+    ],
+  },
+  {
+    id: "ux-designer",
+    title: "UX Designer",
+    description:
+      "Create user-centered designs for digital products and services. Research user needs, design interfaces, and test usability to improve user experiences.",
+    category: "design",
+    skills: ["User Research", "Wireframing", "Prototyping", "Visual Design", "Usability Testing"],
+    education: "Bachelor's degree in Design, HCI, Psychology, or related field",
+    salary: "$75,000 - $120,000",
+    growth: "High",
+    responsibilities: [
+      "Conduct user research and interviews",
+      "Create wireframes and prototypes",
+      "Design user interfaces",
+      "Test and iterate on designs",
+    ],
+  },
+  {
+    id: "product-manager",
+    title: "Product Manager",
+    description:
+      "Lead the development of products from conception to launch. Define product strategy, work with engineering teams, and ensure products meet market needs.",
+    category: "business",
+    skills: ["Strategic Thinking", "Communication", "Data Analysis", "Project Management", "User Empathy"],
+    education: "Bachelor's degree in Business, Computer Science, or related field; MBA preferred",
+    salary: "$85,000 - $140,000",
+    growth: "High",
+    responsibilities: [
+      "Define product roadmap and strategy",
+      "Gather and prioritize requirements",
+      "Work with engineering and design teams",
+      "Analyze product metrics and user feedback",
+    ],
+  },
+  {
+    id: "marketing-manager",
+    title: "Marketing Manager",
+    description:
+      "Develop and execute marketing strategies to promote products or services. Manage campaigns, analyze market trends, and work with creative teams.",
+    category: "marketing",
+    skills: ["Digital Marketing", "Analytics", "Content Strategy", "Brand Management", "Communication"],
+    education: "Bachelor's degree in Marketing, Business, Communications, or related field",
+    salary: "$70,000 - $130,000",
+    growth: "Medium",
+    responsibilities: [
+      "Develop marketing strategies and campaigns",
+      "Manage marketing budgets",
+      "Analyze campaign performance",
+      "Coordinate with creative and sales teams",
+    ],
+  },
+  {
+    id: "cybersecurity-analyst",
+    title: "Cybersecurity Analyst",
+    description:
+      "Protect organizations from cyber threats by monitoring security systems, investigating incidents, and implementing security measures.",
+    category: "technology",
+    skills: ["Network Security", "Incident Response", "Risk Assessment", "Security Tools", "Compliance"],
+    education: "Bachelor's degree in Cybersecurity, Computer Science, or related field",
+    salary: "$90,000 - $140,000",
+    growth: "Very High",
+    responsibilities: [
+      "Monitor security systems and networks",
+      "Investigate security incidents",
+      "Implement security policies",
+      "Conduct vulnerability assessments",
+    ],
+  },
+  {
+    id: "digital-marketing-specialist",
+    title: "Digital Marketing Specialist",
+    description:
+      "Plan and execute digital marketing campaigns across various online channels to reach target audiences and drive business growth.",
+    category: "marketing",
+    skills: ["Digital Marketing", "Analytics", "Content Creation", "Social Media", "SEO"],
+    education: "Bachelor's degree in Marketing, Communications, or related field",
+    salary: "$55,000 - $95,000",
+    growth: "High",
+  },
+  {
+    id: "business-analyst",
+    title: "Business Analyst",
+    description:
+      "Analyze business processes and requirements to help organizations improve efficiency and achieve their goals through data-driven insights.",
+    category: "business",
+    skills: ["Data Analysis", "Process Improvement", "Communication", "Problem Solving", "Documentation"],
+    education: "Bachelor's degree in Business, Economics, or related field",
+    salary: "$65,000 - $110,000",
+    growth: "Medium",
+  },
+  {
+    id: "teacher",
+    title: "Teacher",
+    description:
+      "Educate and inspire students in various subjects, creating engaging learning experiences and supporting student development.",
+    category: "education",
+    skills: ["Communication", "Patience", "Creativity", "Organization", "Subject Expertise"],
+    education: "Bachelor's degree in Education or subject area, plus teaching certification",
+    salary: "$45,000 - $75,000",
+    growth: "Medium",
+  },
+  {
+    id: "research-analyst",
+    title: "Research Analyst",
+    description:
+      "Conduct research and analysis to provide insights and recommendations for business decisions, policy development, or academic purposes.",
+    category: "research",
+    skills: ["Research Methods", "Data Analysis", "Critical Thinking", "Writing", "Statistical Analysis"],
+    education: "Bachelor's degree in relevant field, Master's preferred",
+    salary: "$55,000 - $85,000",
+    growth: "Medium",
+  },
+  {
+    id: "healthcare-administrator",
+    title: "Healthcare Administrator",
+    description:
+      "Manage healthcare facilities and services, ensuring efficient operations and quality patient care while handling administrative responsibilities.",
+    category: "healthcare",
+    skills: ["Leadership", "Healthcare Knowledge", "Administration", "Communication", "Problem Solving"],
+    education: "Bachelor's degree in Healthcare Administration or related field",
+    salary: "$70,000 - $120,000",
+    growth: "High",
+  },
+  {
+    id: "financial-analyst",
+    title: "Financial Analyst",
+    description:
+      "Analyze financial data and market trends to help organizations make informed investment and business decisions.",
+    category: "finance",
+    skills: ["Financial Analysis", "Excel", "Data Analysis", "Attention to Detail", "Communication"],
+    education: "Bachelor's degree in Finance, Economics, or related field",
+    salary: "$65,000 - $110,000",
+    growth: "Medium",
+  },
+  // Add more careers as needed
+]
