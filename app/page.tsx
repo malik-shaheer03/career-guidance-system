@@ -80,7 +80,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <TestimonialCard
               quote="CareerAI helped me discover my passion for data science. The assessment was spot-on with my skills and interests!"
-              author="Sarah Johnson"
+              author="John Wick"
               role="Data Scientist"
               image="/images/testimonial-1.png"
             />
@@ -91,7 +91,7 @@ export default function Home() {
               image="/images/testimonial-2.png"
             />
             <TestimonialCard
-              quote="The knowledge base and resources provided were invaluable in my transition to a new industry."
+              quote="The knowledge base and resources provided were absolutely invaluable in my smooth transition to a new industry."
               author="Priya Patel"
               role="Product Manager"
               image="/images/testimonial-3.png"

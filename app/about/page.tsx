@@ -137,7 +137,7 @@ export default function AboutPage() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-4xl mx-auto">
+          <div className="grid grid-cols-1 gap-12 max-w-md mx-auto">
             {[
               {
                 name: "Muhammad Shaheer Malik",
@@ -145,13 +145,6 @@ export default function AboutPage() {
                 description:
                   "Specializes in creating intuitive user experiences and implementing AI-driven interfaces for career guidance systems.",
                 image: "/shaheer.jpg",
-              },
-              {
-                name: "Muhammad Balaj Javed",
-                role: "Back-End Developer, DevOps Specialist & ML Engineer",
-                description:
-                  "Expert in building scalable backend systems, machine learning algorithms, and deployment infrastructure for AI applications.",
-                image: "/balaj.jpg",
               },
             ].map((member, index) => (
               <Card key={index} className="overflow-hidden hover:shadow-lg transition-shadow">
